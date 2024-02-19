@@ -18,13 +18,51 @@ h2 {
     /* font-family: Arial, Helvetica, sans-serif; */
     font-family: "Kode Mono", "Arial", monospace;
     font-size: 10px;
-    
-  }
 
-  h3 {
+}
+
+h3 {
     color: rgb(137, 154, 156);
     /* font-family: Arial, Helvetica, sans-serif; */
     font-family: "Kode Mono", "Arial", monospace;
     font-size: 5px;
-    
-  }
+
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+
+}
+
+table {
+    width: 100;
+}
+
+
+
+footer-foto {
+
+    height:200px;
+    width:300px;
+    color:rgb(255, 255, 255) padding: 15px;
+    position:relative;
+    margin:10px;
+    font-size:30px;
+}
+
+
+
+
+foto-uno {
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+
+}
+
+foto-due {
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+
+}
